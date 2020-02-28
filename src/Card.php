@@ -168,6 +168,16 @@ class Card
     }
 
     /**
+     * Retrieve the last four digits of the card.
+     *
+     * @return string
+     */
+    public function getLastFour(): string
+    {
+        return substr($this->number, -4);
+    }
+
+    /**
      * Retrieve the number of the card.
      *
      * @return string
