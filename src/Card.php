@@ -47,6 +47,21 @@ class Card
     protected $brand;
 
     /**
+     * Instantiate a new card where charges are declined with card_declined
+     * code.
+     *
+     * @return \ChinLeung\Card
+     */
+    public static function chargeDeclined(): Card
+    {
+        return (new static)->setNumber('4000000000000002')
+            ->setBrand('Visa')
+            ->setToken('tok_chargeDeclined')
+            ->setPaymentMethod('pm_card_chargeDeclined')
+        ;
+    }
+
+    /**
      * Instantiate a new Mastercard card.
      *
      * @return \ChinLeung\Card
