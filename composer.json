@@ -1,6 +1,6 @@
 {
     "name": "chinleung/php-stripe-card",
-    "description": "A package to register multilingual routes.",
+    "description": "A list of classes for Stripe test cards.",
     "keywords": [
         "chinleung",
         "stripe",
