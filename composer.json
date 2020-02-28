@@ -1,0 +1,30 @@
+{
+    "name": "chinleung/php-stripe-card",
+    "description": "A package to register multilingual routes.",
+    "keywords": [
+        "chinleung",
+        "stripe",
+        "testing"
+    ],
+    "homepage": "https://github.com/chinleung/php-stripe-card",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chin Leung",
+            "email": "hello@chinleung.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChinLeung\\Stripe\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
