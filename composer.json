@@ -1,6 +1,6 @@
 {
     "name": "chinleung/php-stripe-card",
-    "description": "A list of classes for Stripe test cards.",
+    "description": "A library for testing various Stripe cards.",
     "keywords": [
         "chinleung",
         "stripe",
